@@ -110,11 +110,19 @@ body {font-family: "Lato", sans-serif;}
         margin-top: 50px;
          margin-left: 500px;
 }
- .copyright{
-        font-size: 2rem;
-        padding: 20px 0;
-        color: black;
+ #copyright{
+  background-color: black;
+   height: 65px;
+   width: 100%;
+   justify-items: center;
  }
+  
+  #copyright p{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 12px;
+  }
  
 .background{
 width: 100%;
@@ -233,6 +241,9 @@ text-align: center;
   
 
   <div class="clearfix"></div>
+   <section id="copyright">
+  <p>Copyright©Techkan2021</p>
+  </section>
   <script>
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
@@ -248,8 +259,5 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
-  <section id="copyright"><div class="copyright">
-  <p>Copyright©Techkan2021</p>
-  </section>  
 </body>
 </html> 
